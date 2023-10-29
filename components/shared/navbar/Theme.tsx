@@ -13,9 +13,6 @@ import {
 } from "@/components/ui/menubar"
 import { themes } from "@/constants"
 
-
-
-
 const Theme = () => {
 	const {mode, setMode} = useTheme()
 
@@ -53,7 +50,6 @@ const Theme = () => {
 				</MenubarContent>
 			</MenubarMenu>
 		</Menubar>
-
 	)
 }
 export default Theme
