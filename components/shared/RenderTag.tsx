@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 
 
 interface RenderTagProps {
-    _id: number;
+    _id: string;
     name: string;
     totalQuestions?: number;
     showCount?: boolean;
