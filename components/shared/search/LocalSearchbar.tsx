@@ -20,7 +20,6 @@ const LocalSearchbar = ({route, iconPosition, imgSrc, placeholder, otherClasses}
 			<Input 
 				type="text"
 				placeholder={placeholder}
-				value=''
 				className="paragraph-regular no-focus placeholder text-dark400_light700 background-light800_darkgradient border-none shadow-none outline-none"
 			/>
     </div>
